@@ -2,8 +2,8 @@ import React from "react";
 import BookList from "./components/BookList";
 import Navbar from "./components/Navbar";
 import ThemeToggler from "./components/ThemeToggler";
-import { AuthContextProvider } from "./context/AuthCcontext";
-import { ThemeContextProvider } from "./context/ThemeContext";
+import AuthContextProvider from "./context/AuthContext";
+import ThemeContextProvider from "./context/ThemeContext";
 
 function App() {
   return (
